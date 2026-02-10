@@ -12,6 +12,7 @@ import { AnalyticsModule } from './modules/analytics/analytics.module';
 import { KpiModule } from './modules/kpi/kpi.module';
 import { ExportsModule } from './modules/exports/exports.module';
 import { EtlModule } from './modules/etl/etl.module';
+import { Tenant } from './entities/tenant.entity';
 
 import { TenantMiddleware } from './common/middleware/tenant.middleware';
 
@@ -56,14 +57,10 @@ import jwtConfig from './config/jwt.config';
           };
         }
 
-        // Fallback to individual variables (local development)
+        // Fallback to SQLite (local development without Docker)
         return {
-          type: 'postgres' as const,
-          host: configService.get<string>('DB_HOST') || 'localhost',
-          port: parseInt(configService.get<string>('DB_PORT') || '5432', 10),
-          username: configService.get<string>('DB_USERNAME') || 'postgres',
-          password: configService.get<string>('DB_PASSWORD') || 'password',
-          database: configService.get<string>('DB_NAME') || 'dashcortex',
+          type: 'sqlite' as const,
+          database: 'dashcortex.sqlite',
           entities: [__dirname + '/**/*.entity{.ts,.js}'],
           synchronize: configService.get<string>('NODE_ENV') !== 'production',
           logging: configService.get<string>('NODE_ENV') === 'development',
@@ -84,6 +81,7 @@ import jwtConfig from './config/jwt.config';
     KpiModule,
     ExportsModule,
     EtlModule,
+    TypeOrmModule.forFeature([Tenant]),
   ],
 })
 export class AppModule implements NestModule {

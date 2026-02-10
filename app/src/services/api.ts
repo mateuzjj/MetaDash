@@ -309,8 +309,32 @@ class ApiClient {
 
     async getTimeSeries(kpiCode: string, startDate: string, endDate: string) {
         return (await this.request(
-            `/kpi/time-series/${kpiCode}?startDate=${startDate}&endDate=${endDate}`,
+            `/kpi/time-series?kpiCode=${kpiCode}&startDate=${startDate}&endDate=${endDate}`,
         )).data;
+    }
+
+    async getOverviewKPIs(startDate: string, endDate: string) {
+        return (await this.request(
+            `/kpi/overview?startDate=${startDate}&endDate=${endDate}`,
+        )).data;
+    }
+
+    // ==========================================
+    // ETL ENDPOINTS
+    // ==========================================
+
+    async triggerEtlSync(connectorId: string) {
+        return (await this.request('/etl/sync', {
+            method: 'POST',
+            body: JSON.stringify({ connectorId }),
+        })).data;
+    }
+
+    async reprocessEtlData(connectorId: string, startDate: string, endDate: string) {
+        return (await this.request('/etl/reprocess', {
+            method: 'POST',
+            body: JSON.stringify({ connectorId, startDate, endDate }),
+        })).data;
     }
 
     // ==========================================
@@ -348,6 +372,30 @@ class ApiClient {
 
     async listUsers(page = 1, limit = 10) {
         return (await this.request(`/users?page=${page}&limit=${limit}`)).data;
+    }
+
+    async getUser(id: string) {
+        return (await this.request(`/users/${id}`)).data;
+    }
+
+    async updateUserRole(id: string, role: string) {
+        return (await this.request(`/users/${id}/role`, {
+            method: 'PUT',
+            body: JSON.stringify({ role }),
+        })).data;
+    }
+
+    async updateUserStatus(id: string, status: string) {
+        return (await this.request(`/users/${id}/status`, {
+            method: 'PUT',
+            body: JSON.stringify({ status }),
+        })).data;
+    }
+
+    async deleteUser(id: string) {
+        return (await this.request(`/users/${id}`, {
+            method: 'DELETE',
+        })).data;
     }
 }
 
