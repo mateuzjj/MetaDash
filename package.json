@@ -1,0 +1,15 @@
+{
+    "name": "saas-dashboard-root",
+    "private": true,
+    "workspaces": [
+        "app",
+        "backend"
+    ],
+    "scripts": {
+        "install:all": "npm install",
+        "build:backend": "npm run build --workspace=backend",
+        "build:app": "npm run build --workspace=app",
+        "start:backend": "npm run start:prod --workspace=backend",
+        "start:app": "npm run start --workspace=app"
+    }
+}
