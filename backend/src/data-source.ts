@@ -1,4 +1,4 @@
-import { DataSource } from 'typeorm';
+import { DataSource, DataSourceOptions } from 'typeorm';
 import * as dotenv from 'dotenv';
 import { User } from './entities/user.entity';
 import { Tenant } from './entities/tenant.entity';
@@ -17,4 +17,4 @@ export const AppDataSource = new DataSource({
     migrations: ['src/migrations/*{.ts,.js}'],
     synchronize: false,
     ssl: process.env.DATABASE_URL ? { rejectUnauthorized: false } : undefined,
-});
+} as DataSourceOptions);
