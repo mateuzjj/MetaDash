@@ -50,8 +50,8 @@ import jwtConfig from './config/jwt.config';
             type: 'postgres' as const,
             url: databaseUrl,
             entities: [__dirname + '/**/*.entity{.ts,.js}'],
-            synchronize: configService.get('NODE_ENV') !== 'production',
-            logging: configService.get('NODE_ENV') === 'development',
+            synchronize: false,
+            logging: false,
             ssl: { rejectUnauthorized: false },
           };
         }
@@ -59,14 +59,14 @@ import jwtConfig from './config/jwt.config';
         // Fallback to individual variables (local development)
         return {
           type: 'postgres' as const,
-          host: configService.get('DB_HOST', 'localhost'),
-          port: configService.get('DB_PORT', 5432),
-          username: configService.get('DB_USERNAME', 'postgres'),
-          password: configService.get('DB_PASSWORD', 'password'),
-          database: configService.get('DB_NAME', 'dashcortex'),
+          host: configService.get<string>('DB_HOST') || 'localhost',
+          port: parseInt(configService.get<string>('DB_PORT') || '5432', 10),
+          username: configService.get<string>('DB_USERNAME') || 'postgres',
+          password: configService.get<string>('DB_PASSWORD') || 'password',
+          database: configService.get<string>('DB_NAME') || 'dashcortex',
           entities: [__dirname + '/**/*.entity{.ts,.js}'],
-          synchronize: configService.get('NODE_ENV') !== 'production',
-          logging: configService.get('NODE_ENV') === 'development',
+          synchronize: configService.get<string>('NODE_ENV') !== 'production',
+          logging: configService.get<string>('NODE_ENV') === 'development',
         };
       },
       inject: [ConfigService],
