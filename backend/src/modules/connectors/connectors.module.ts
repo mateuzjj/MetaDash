@@ -10,11 +10,12 @@ import { MetaAdsService } from './services/meta-ads.service';
 import { UserConnector } from '../../entities/user-connector.entity';
 import { KpiValue } from '../../entities/kpi-value.entity';
 import { RawEvent } from '../../entities/raw-event.entity';
+import { Campaign } from '../../entities/campaign.entity';
 
 @Module({
   imports: [
     HttpModule,
-    TypeOrmModule.forFeature([UserConnector, KpiValue, RawEvent]),
+    TypeOrmModule.forFeature([UserConnector, KpiValue, RawEvent, Campaign]),
   ],
   controllers: [ConnectorsController],
   providers: [
@@ -30,4 +31,4 @@ import { RawEvent } from '../../entities/raw-event.entity';
     MetaAdsService,
   ],
 })
-export class ConnectorsModule {}
+export class ConnectorsModule { }
