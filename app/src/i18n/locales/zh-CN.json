@@ -1,0 +1,14 @@
+{
+  "app": { "name": "DashCortex", "tagline": "营销综合报告" },
+  "navigation": { "overview": "概览", "metaAds": "Meta 广告", "googleAds": "Google 广告", "analytics": "分析", "mobile": "移动" },
+  "filters": { "dateRange": "日期范围", "campaign": "广告系列", "ad": "广告", "group": "组", "type": "类型", "city": "城市", "region": "地区", "apply": "应用", "clear": "清除" },
+  "kpis": { "totalInvestment": "总投入", "totalConversions": "总转化", "conversionRate": "转化率", "totalRevenue": "总收入", "overallROI": "总体ROI", "totalImpressions": "总展示", "investment": "投入", "revenue": "收入", "purchases": "购买", "averageROAS": "平均ROAS", "costPerPurchase": "每次购买成本(CPA)", "conversions": "转化", "costPerConversion": "每次转化成本", "clicks": "点击", "averageCPC": "平均CPC", "totalAccesses": "总访问", "totalUsers": "总用户", "newUsers": "新用户", "pageViews": "页面浏览", "engagementRate": "参与率", "checkouts": "结账", "initiatedCheckouts": "发起结账", "costPerCheckout": "每次结账成本", "addToCart": "加入购物车", "frequency": "频次", "cpm": "CPM" },
+  "charts": { "trafficFunnel": "流量漏斗", "bestAds": "最佳广告(转化)", "conversionsByGender": "按性别转化", "accessSource": "访问来源", "accessByRegion": "按地区访问", "accessByURL": "按URL访问", "operatingSystem": "操作系统", "device": "设备", "accessInPeriod": "期间访问", "accessInWeek": "本周访问", "investment": "投入", "conversions": "转化", "costPerConversion": "每次转化成本", "keywords": "关键词", "campaigns": "广告系列", "adSets": "广告组", "ads": "广告" },
+  "tables": { "campaign": "广告系列", "adSet": "广告组", "ad": "广告", "investment": "投入", "costPerPurchase": "每次购买成本", "purchases": "购买", "region": "地区", "city": "城市", "accesses": "访问", "keyword": "关键词", "conversions": "转化", "costPerConversion": "每次转化成本", "conversionRate": "转化率", "clicks": "点击", "url": "网址" },
+  "actions": { "export": "导出", "exportCSV": "导出CSV", "exportPDF": "导出PDF", "refresh": "刷新", "download": "下载" },
+  "funnel": { "clicks": "点击", "pageViews": "页面浏览", "checkouts": "结账", "purchases": "购买", "dropOffRate": "流失率", "currentRate": "当前率" },
+  "common": { "loading": "加载中...", "error": "错误", "success": "成功", "cancel": "取消", "save": "保存", "edit": "编辑", "delete": "删除", "search": "搜索", "all": "全部", "none": "无", "more": "更多", "less": "更少", "showing": "显示", "of": "共", "results": "结果", "perPage": "每页" },
+  "gender": { "male": "男", "female": "女", "unknown": "未知" },
+  "currency": { "symbol": "¥", "code": "CNY" },
+  "percent": "%"
+}

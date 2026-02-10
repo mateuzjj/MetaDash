@@ -1,0 +1,688 @@
+
+> dashcortex-api@1.0.0 build
+> nest build
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m32:8[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (32:8)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     async getTrafficSources(req, startDate, endDate) {
+|         tenantId: string,
+>         ;
+|         {
+|             const connectorIds = req.user.connectors?.map((c) => c.id) || [];[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m52:18[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(52,19)
+      TS1146: Declaration expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m53:2-3[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(53,3)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m69:9[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(69,10)
+      TS1146: Declaration expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m70:12[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(70,13)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m70:13-16[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(70,14)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m71:25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(71,26)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m71:26-35[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(71,27)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m71:35-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(71,36)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m72:23[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(72,24)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m72:24-31[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(72,25)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m72:31-32[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(72,32)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m73:6-7[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(73,7)
+      TS1005: ';' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m74:20[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(74,21)
+      TS1146: Declaration expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m75:2-3[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(75,3)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m91:11[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(91,12)
+      TS1146: Declaration expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m92:14[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(92,15)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m92:15-18[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(92,16)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m93:27[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(93,28)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m93:28-37[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(93,29)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m93:37-38[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(93,38)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m94:25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(94,26)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m94:26-33[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(94,27)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m94:33-34[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(94,34)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m95:8-9[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(95,9)
+      TS1005: ';' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m96:22[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(96,23)
+      TS1146: Declaration expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m97:2-3[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(97,3)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m113:13[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(113,14)
+      TS1146: Declaration expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m114:16[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(114,17)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m114:17-20[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(114,18)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m115:29[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(115,30)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m115:30-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(115,31)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m115:39-40[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(115,40)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m116:27[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(116,28)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m116:28-35[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(116,29)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m116:35-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(116,36)
+      TS1005: ',' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m117:10-11[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(117,11)
+      TS1005: ';' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m118:24[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(118,25)
+      TS1146: Declaration expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m119:2-3[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(119,3)
+      TS1109: Expression expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1mC:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts[39m[22m
+[1m./src/modules/analytics/analytics.controller.ts[39m[22m [1m[32m130:0[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\SERVER\SaaS-dashboard\backend\src\modules\analytics\analytics.controller.ts(130,1)
+      TS1005: '}' expected.[39m[22m
+ @ ./src/modules/analytics/analytics.module.ts 13:31-64
+ @ ./src/app.module.ts 19:27-74
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1m./src/modules/connectors/connectors.module.ts[39m[22m [1m[32m11:16-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/axios' in 'C:\SERVER\SaaS-dashboard\backend\src\modules\connectors'[39m[22m
+ @ ./src/app.module.ts 18:28-77
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1m./src/modules/tenants/tenant.controller.ts[39m[22m [1m[32m24:22-64[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../common/guards/roles.guard' in 'C:\SERVER\SaaS-dashboard\backend\src\modules\tenants'[39m[22m
+ @ ./src/modules/tenants/tenants.module.ts 13:28-58
+ @ ./src/app.module.ts 17:25-68
+ @ ./src/main.ts 10:21-44
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:52:30[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 50 |[39m     [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 51 |[39m   ) {
+  [31m[1m>[22m[39m[90m 52 |[39m     [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m   ) {
+   [90m 54 |[39m       [36mconst[39m connectorIds [33m=[39m req[33m.[39muser[33m.[39mconnectors[33m?[39m[33m.[39mmap((c[33m:[39m any) [33m=>[39m c[33m.[39mid) [33m||[39m [][33m;[39m
+   [90m 55 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:52:30[39m[22m
+TS2695: Left side of comma operator is unused and has no side effects.
+  [0m [90m 50 |[39m     [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 51 |[39m   ) {
+  [31m[1m>[22m[39m[90m 52 |[39m     [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m   ) {
+   [90m 54 |[39m       [36mconst[39m connectorIds [33m=[39m req[33m.[39muser[33m.[39mconnectors[33m?[39m[33m.[39mmap((c[33m:[39m any) [33m=>[39m c[33m.[39mid) [33m||[39m [][33m;[39m
+   [90m 55 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:57:9[39m[22m
+TS2304: Cannot find name 'tenantId'.
+  [0m [90m 55 |[39m
+   [90m 56 |[39m       [36mreturn[39m [36mthis[39m[33m.[39manalyticsService[33m.[39mgetTrafficSources(
+  [31m[1m>[22m[39m[90m 57 |[39m         tenantId[33m,[39m
+   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 58 |[39m         connectorIds[33m,[39m
+   [90m 59 |[39m         [36mnew[39m [33mDate[39m(startDate)[33m,[39m
+   [90m 60 |[39m         [36mnew[39m [33mDate[39m(endDate)[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:69:11[39m[22m
+TS2304: Cannot find name 'getGeographicData'.
+  [0m [90m 67 |[39m     [33m@[39m[33mApiQuery[39m({ name[33m:[39m [32m'endDate'[39m[33m,[39m required[33m:[39m [36mtrue[39m })
+   [90m 68 |[39m     [33m@[39m[33mApiResponse[39m({ status[33m:[39m [35m200[39m[33m,[39m description[33m:[39m [32m'Geographic data retrieved'[39m })
+  [31m[1m>[22m[39m[90m 69 |[39m     [36masync[39m getGeographicData(
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 70 |[39m       [33m@[39m[33mReq[39m() req[33m,[39m
+   [90m 71 |[39m       [33m@[39m[33mQuery[39m([32m'startDate'[39m) startDate[33m:[39m string[33m,[39m
+   [90m 72 |[39m       [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:71:38[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 69 |[39m     [36masync[39m getGeographicData(
+   [90m 70 |[39m       [33m@[39m[33mReq[39m() req[33m,[39m
+  [31m[1m>[22m[39m[90m 71 |[39m       [33m@[39m[33mQuery[39m([32m'startDate'[39m) startDate[33m:[39m string[33m,[39m
+   [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 72 |[39m       [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 73 |[39m     ) {
+   [90m 74 |[39m       [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:72:34[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 70 |[39m       [33m@[39m[33mReq[39m() req[33m,[39m
+   [90m 71 |[39m       [33m@[39m[33mQuery[39m([32m'startDate'[39m) startDate[33m:[39m string[33m,[39m
+  [31m[1m>[22m[39m[90m 72 |[39m       [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 73 |[39m     ) {
+   [90m 74 |[39m       [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m 75 |[39m   ) {[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:74:32[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 72 |[39m       [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 73 |[39m     ) {
+  [31m[1m>[22m[39m[90m 74 |[39m       [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 75 |[39m   ) {
+   [90m 76 |[39m         [36mconst[39m connectorIds [33m=[39m req[33m.[39muser[33m.[39mconnectors[33m?[39m[33m.[39mmap((c[33m:[39m any) [33m=>[39m c[33m.[39mid) [33m||[39m [][33m;[39m
+   [90m 77 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:74:32[39m[22m
+TS2695: Left side of comma operator is unused and has no side effects.
+  [0m [90m 72 |[39m       [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 73 |[39m     ) {
+  [31m[1m>[22m[39m[90m 74 |[39m       [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 75 |[39m   ) {
+   [90m 76 |[39m         [36mconst[39m connectorIds [33m=[39m req[33m.[39muser[33m.[39mconnectors[33m?[39m[33m.[39mmap((c[33m:[39m any) [33m=>[39m c[33m.[39mid) [33m||[39m [][33m;[39m
+   [90m 77 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:79:11[39m[22m
+TS2304: Cannot find name 'tenantId'.
+  [0m [90m 77 |[39m
+   [90m 78 |[39m         [36mreturn[39m [36mthis[39m[33m.[39manalyticsService[33m.[39mgetGeographicData(
+  [31m[1m>[22m[39m[90m 79 |[39m           tenantId[33m,[39m
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 80 |[39m           connectorIds[33m,[39m
+   [90m 81 |[39m           [36mnew[39m [33mDate[39m(startDate)[33m,[39m
+   [90m 82 |[39m           [36mnew[39m [33mDate[39m(endDate)[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:91:13[39m[22m
+TS2304: Cannot find name 'getDeviceData'.
+  [0m [90m 89 |[39m       [33m@[39m[33mApiQuery[39m({ name[33m:[39m [32m'endDate'[39m[33m,[39m required[33m:[39m [36mtrue[39m })
+   [90m 90 |[39m       [33m@[39m[33mApiResponse[39m({ status[33m:[39m [35m200[39m[33m,[39m description[33m:[39m [32m'Device data retrieved'[39m })
+  [31m[1m>[22m[39m[90m 91 |[39m       [36masync[39m getDeviceData(
+   [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 92 |[39m         [33m@[39m[33mReq[39m() req[33m,[39m
+   [90m 93 |[39m         [33m@[39m[33mQuery[39m([32m'startDate'[39m) startDate[33m:[39m string[33m,[39m
+   [90m 94 |[39m         [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:93:40[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 91 |[39m       [36masync[39m getDeviceData(
+   [90m 92 |[39m         [33m@[39m[33mReq[39m() req[33m,[39m
+  [31m[1m>[22m[39m[90m 93 |[39m         [33m@[39m[33mQuery[39m([32m'startDate'[39m) startDate[33m:[39m string[33m,[39m
+   [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 94 |[39m         [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 95 |[39m       ) {
+   [90m 96 |[39m         [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:94:36[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 92 |[39m         [33m@[39m[33mReq[39m() req[33m,[39m
+   [90m 93 |[39m         [33m@[39m[33mQuery[39m([32m'startDate'[39m) startDate[33m:[39m string[33m,[39m
+  [31m[1m>[22m[39m[90m 94 |[39m         [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 95 |[39m       ) {
+   [90m 96 |[39m         [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m 97 |[39m   ) {[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:96:34[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 94 |[39m         [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 95 |[39m       ) {
+  [31m[1m>[22m[39m[90m 96 |[39m         [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 97 |[39m   ) {
+   [90m 98 |[39m           [36mconst[39m connectorIds [33m=[39m req[33m.[39muser[33m.[39mconnectors[33m?[39m[33m.[39mmap((c[33m:[39m any) [33m=>[39m c[33m.[39mid) [33m||[39m [][33m;[39m
+   [90m 99 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:96:34[39m[22m
+TS2695: Left side of comma operator is unused and has no side effects.
+  [0m [90m 94 |[39m         [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 95 |[39m       ) {
+  [31m[1m>[22m[39m[90m 96 |[39m         [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 97 |[39m   ) {
+   [90m 98 |[39m           [36mconst[39m connectorIds [33m=[39m req[33m.[39muser[33m.[39mconnectors[33m?[39m[33m.[39mmap((c[33m:[39m any) [33m=>[39m c[33m.[39mid) [33m||[39m [][33m;[39m
+   [90m 99 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:101:13[39m[22m
+TS2304: Cannot find name 'tenantId'.
+  [0m [90m  99 |[39m
+   [90m 100 |[39m           [36mreturn[39m [36mthis[39m[33m.[39manalyticsService[33m.[39mgetDeviceData(
+  [31m[1m>[22m[39m[90m 101 |[39m             tenantId[33m,[39m
+   [90m     |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 102 |[39m             connectorIds[33m,[39m
+   [90m 103 |[39m             [36mnew[39m [33mDate[39m(startDate)[33m,[39m
+   [90m 104 |[39m             [36mnew[39m [33mDate[39m(endDate)[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:113:15[39m[22m
+TS2304: Cannot find name 'getCampaignPerformance'.
+  [0m [90m 111 |[39m         [33m@[39m[33mApiQuery[39m({ name[33m:[39m [32m'endDate'[39m[33m,[39m required[33m:[39m [36mtrue[39m })
+   [90m 112 |[39m         [33m@[39m[33mApiResponse[39m({ status[33m:[39m [35m200[39m[33m,[39m description[33m:[39m [32m'Campaign performance retrieved'[39m })
+  [31m[1m>[22m[39m[90m 113 |[39m         [36masync[39m getCampaignPerformance(
+   [90m     |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 114 |[39m           [33m@[39m[33mReq[39m() req[33m,[39m
+   [90m 115 |[39m           [33m@[39m[33mQuery[39m([32m'startDate'[39m) startDate[33m:[39m string[33m,[39m
+   [90m 116 |[39m           [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:115:42[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 113 |[39m         [36masync[39m getCampaignPerformance(
+   [90m 114 |[39m           [33m@[39m[33mReq[39m() req[33m,[39m
+  [31m[1m>[22m[39m[90m 115 |[39m           [33m@[39m[33mQuery[39m([32m'startDate'[39m) startDate[33m:[39m string[33m,[39m
+   [90m     |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 116 |[39m           [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 117 |[39m         ) {
+   [90m 118 |[39m           [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:116:38[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 114 |[39m           [33m@[39m[33mReq[39m() req[33m,[39m
+   [90m 115 |[39m           [33m@[39m[33mQuery[39m([32m'startDate'[39m) startDate[33m:[39m string[33m,[39m
+  [31m[1m>[22m[39m[90m 116 |[39m           [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m     |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 117 |[39m         ) {
+   [90m 118 |[39m           [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m 119 |[39m   ) {[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:118:36[39m[22m
+TS2693: 'string' only refers to a type, but is being used as a value here.
+  [0m [90m 116 |[39m           [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 117 |[39m         ) {
+  [31m[1m>[22m[39m[90m 118 |[39m           [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m     |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 119 |[39m   ) {
+   [90m 120 |[39m             [36mconst[39m connectorIds [33m=[39m req[33m.[39muser[33m.[39mconnectors[33m?[39m[33m.[39mmap((c[33m:[39m any) [33m=>[39m c[33m.[39mid) [33m||[39m [][33m;[39m
+   [90m 121 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:118:36[39m[22m
+TS2695: Left side of comma operator is unused and has no side effects.
+  [0m [90m 116 |[39m           [33m@[39m[33mQuery[39m([32m'endDate'[39m) endDate[33m:[39m string[33m,[39m
+   [90m 117 |[39m         ) {
+  [31m[1m>[22m[39m[90m 118 |[39m           [33m@[39m[33mGetTenantId[39m() tenantId[33m:[39m string[33m,[39m
+   [90m     |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 119 |[39m   ) {
+   [90m 120 |[39m             [36mconst[39m connectorIds [33m=[39m req[33m.[39muser[33m.[39mconnectors[33m?[39m[33m.[39mmap((c[33m:[39m any) [33m=>[39m c[33m.[39mid) [33m||[39m [][33m;[39m
+   [90m 121 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/analytics/analytics.controller.ts:123:15[39m[22m
+TS2304: Cannot find name 'tenantId'.
+  [0m [90m 121 |[39m
+   [90m 122 |[39m             [36mreturn[39m [36mthis[39m[33m.[39manalyticsService[33m.[39mgetCampaignPerformance(
+  [31m[1m>[22m[39m[90m 123 |[39m               tenantId[33m,[39m
+   [90m     |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 124 |[39m               connectorIds[33m,[39m
+   [90m 125 |[39m               [36mnew[39m [33mDate[39m(startDate)[33m,[39m
+   [90m 126 |[39m               [36mnew[39m [33mDate[39m(endDate)[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/auth/auth.service.ts:182:9[39m[22m
+TS1117: An object literal cannot have multiple properties with the same name.
+  [0m [90m 180 |[39m         status[33m:[39m [33mUserStatus[39m[33m.[39m[33mACTIVE[39m[33m,[39m
+   [90m 181 |[39m         emailVerified[33m:[39m [36mtrue[39m[33m,[39m
+  [31m[1m>[22m[39m[90m 182 |[39m         emailVerified[33m:[39m [36mtrue[39m[33m,[39m
+   [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 183 |[39m         tenantId[33m:[39m defaultTenant[33m.[39mid[33m,[39m
+   [90m 184 |[39m       })[33m;[39m
+   [90m 185 |[39m     } [36melse[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/connectors/connectors.module.ts:2:28[39m[22m
+TS2307: Cannot find module '@nestjs/axios' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mHttpModule[39m } [36mfrom[39m [32m'@nestjs/axios'[39m[33m;[39m
+   [90m   |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 4 |[39m
+   [90m 5 |[39m [36mimport[39m { [33mConnectorsService[39m } [36mfrom[39m [32m'./connectors.service'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/etl/etl.controller.ts:30:27[39m[22m
+TS2339: Property 'triggerManualSync' does not exist on type 'EtlService'.
+  [0m [90m 28 |[39m   [33m@[39m[33mApiResponse[39m({ status[33m:[39m [35m200[39m[33m,[39m description[33m:[39m [32m'Sync triggered'[39m })
+   [90m 29 |[39m   [36masync[39m triggerSync([33m@[39m[33mBody[39m([32m'connectorId'[39m) connectorId[33m:[39m string) {
+  [31m[1m>[22m[39m[90m 30 |[39m     [36mawait[39m [36mthis[39m[33m.[39metlService[33m.[39mtriggerManualSync(connectorId)[33m;[39m
+   [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 31 |[39m     [36mreturn[39m { message[33m:[39m [32m'Sync triggered successfully'[39m }[33m;[39m
+   [90m 32 |[39m   }
+   [90m 33 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/etl/etl.service.spec.ts:63:37[39m[22m
+TS2352: Conversion of type '{ id: string; tenantId: string; source: any; connectorId: string; receivedAt: Date; eventTime: Date; payload: { sessions: number; pageViews: number; }; processed: false; }' to type 'RawEvent' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Type '{ id: string; tenantId: string; source: any; connectorId: string; receivedAt: Date; eventTime: Date; payload: { sessions: number; pageViews: number; }; processed: false; }' is missing the following properties from type 'RawEvent': externalId, eventType, processedAt, processingError, createdAt
+  [0m [90m 61 |[39m         it([32m'should transform GA4 raw event to KPI values'[39m[33m,[39m [36masync[39m () [33m=>[39m {
+   [90m 62 |[39m             [36mconst[39m tenantId [33m=[39m [32m'tenant-123'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 63 |[39m             [36mconst[39m event[33m:[39m [33mRawEvent[39m [33m=[39m {
+   [90m    |[39m                                     [31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 64 |[39m                 id[33m:[39m [32m'evt-1'[39m[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 65 |[39m                 tenantId[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 66 |[39m                 source[33m:[39m [33mEventSource[39m[33m.[39m[33mGA4[39m[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 67 |[39m                 connectorId[33m:[39m [32m'conn-1'[39m[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 68 |[39m                 receivedAt[33m:[39m [36mnew[39m [33mDate[39m()[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 69 |[39m                 eventTime[33m:[39m [36mnew[39m [33mDate[39m()[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 70 |[39m                 payload[33m:[39m {
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 71 |[39m                     sessions[33m:[39m [35m100[39m[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 72 |[39m                     pageViews[33m:[39m [35m200[39m[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 73 |[39m                 }[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 74 |[39m                 processed[33m:[39m [36mfalse[39m[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 75 |[39m             } [36mas[39m [33mRawEvent[39m[33m;[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 76 |[39m
+   [90m 77 |[39m             mockRawEventRepo[33m.[39mfind[33m.[39mmockResolvedValue([event])[33m;[39m
+   [90m 78 |[39m             mockKpiValueRepo[33m.[39mfindOne[33m.[39mmockResolvedValue([36mnull[39m)[33m;[39m [90m// No existing KPI[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/etl/etl.service.spec.ts:66:37[39m[22m
+TS2339: Property 'GA4' does not exist on type 'typeof EventSource'.
+  [0m [90m 64 |[39m                 id[33m:[39m [32m'evt-1'[39m[33m,[39m
+   [90m 65 |[39m                 tenantId[33m,[39m
+  [31m[1m>[22m[39m[90m 66 |[39m                 source[33m:[39m [33mEventSource[39m[33m.[39m[33mGA4[39m[33m,[39m
+   [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 67 |[39m                 connectorId[33m:[39m [32m'conn-1'[39m[33m,[39m
+   [90m 68 |[39m                 receivedAt[33m:[39m [36mnew[39m [33mDate[39m()[33m,[39m
+   [90m 69 |[39m                 eventTime[33m:[39m [36mnew[39m [33mDate[39m()[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/etl/etl.service.spec.ts:101:37[39m[22m
+TS2352: Conversion of type '{ id: string; tenantId: string; source: any; connectorId: string; receivedAt: Date; eventTime: Date; payload: { sessions: number; }; processed: false; }' to type 'RawEvent' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Type '{ id: string; tenantId: string; source: any; connectorId: string; receivedAt: Date; eventTime: Date; payload: { sessions: number; }; processed: false; }' is missing the following properties from type 'RawEvent': externalId, eventType, processedAt, processingError, createdAt
+  [0m [90m  99 |[39m         it([32m'should be idempotent (update existing KPI)'[39m[33m,[39m [36masync[39m () [33m=>[39m {
+   [90m 100 |[39m             [36mconst[39m tenantId [33m=[39m [32m'tenant-123'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 101 |[39m             [36mconst[39m event[33m:[39m [33mRawEvent[39m [33m=[39m {
+   [90m     |[39m                                     [31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 102 |[39m                 id[33m:[39m [32m'evt-1'[39m[33m,[39m
+   [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 103 |[39m                 tenantId[33m,[39m
+   [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 104 |[39m                 source[33m:[39m [33mEventSource[39m[33m.[39m[33mGA4[39m[33m,[39m
+   [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 105 |[39m                 connectorId[33m:[39m [32m'conn-1'[39m[33m,[39m
+   [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 106 |[39m                 receivedAt[33m:[39m [36mnew[39m [33mDate[39m()[33m,[39m
+   [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 107 |[39m                 eventTime[33m:[39m [36mnew[39m [33mDate[39m()[33m,[39m
+   [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 108 |[39m                 payload[33m:[39m { sessions[33m:[39m [35m100[39m }[33m,[39m
+   [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 109 |[39m                 processed[33m:[39m [36mfalse[39m[33m,[39m
+   [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 110 |[39m             } [36mas[39m [33mRawEvent[39m[33m;[39m
+   [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 111 |[39m
+   [90m 112 |[39m             mockRawEventRepo[33m.[39mfind[33m.[39mmockResolvedValue([event])[33m;[39m
+   [90m 113 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/etl/etl.service.spec.ts:104:37[39m[22m
+TS2339: Property 'GA4' does not exist on type 'typeof EventSource'.
+  [0m [90m 102 |[39m                 id[33m:[39m [32m'evt-1'[39m[33m,[39m
+   [90m 103 |[39m                 tenantId[33m,[39m
+  [31m[1m>[22m[39m[90m 104 |[39m                 source[33m:[39m [33mEventSource[39m[33m.[39m[33mGA4[39m[33m,[39m
+   [90m     |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 105 |[39m                 connectorId[33m:[39m [32m'conn-1'[39m[33m,[39m
+   [90m 106 |[39m                 receivedAt[33m:[39m [36mnew[39m [33mDate[39m()[33m,[39m
+   [90m 107 |[39m                 eventTime[33m:[39m [36mnew[39m [33mDate[39m()[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/etl/etl.service.ts:282:24[39m[22m
+TS2339: Property 'GA4' does not exist on type 'typeof EventSource'.
+  [0m [90m 280 |[39m
+   [90m 281 |[39m     [36mswitch[39m (event[33m.[39msource) {
+  [31m[1m>[22m[39m[90m 282 |[39m       [36mcase[39m [33mEventSource[39m[33m.[39m[33mGA4[39m[33m:[39m
+   [90m     |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 283 |[39m         [36mif[39m (payload[33m.[39msessions [33m!==[39m undefined) {
+   [90m 284 |[39m           kpiValues[33m.[39mpush([36mthis[39m[33m.[39mcreateKpiEntry(tenantId[33m,[39m [32m'sessions'[39m[33m,[39m payload[33m.[39msessions[33m,[39m eventDate[33m,[39m event))[33m;[39m
+   [90m 285 |[39m         }[0m
+
+[1m[31mERROR[39m[22m in [1m./src/modules/tenants/tenant.controller.ts:18:28[39m[22m
+TS2307: Cannot find module '../../common/guards/roles.guard' or its corresponding type declarations.
+  [0m [90m 16 |[39m [36mimport[39m { [33mUpgradePlanDto[39m } [36mfrom[39m [32m'./dto/upgrade-plan.dto'[39m[33m;[39m
+   [90m 17 |[39m [36mimport[39m { [33mJwtAuthGuard[39m } [36mfrom[39m [32m'../auth/guards/jwt-auth.guard'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 18 |[39m [36mimport[39m { [33mRolesGuard[39m } [36mfrom[39m [32m'../../common/guards/roles.guard'[39m[33m;[39m
+   [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m [36mimport[39m { [33mRoles[39m } [36mfrom[39m [32m'../../common/decorators/roles.decorator'[39m[33m;[39m
+   [90m 20 |[39m [36mimport[39m { [33mGetTenantId[39m } [36mfrom[39m [32m'../../common/decorators/tenant.decorator'[39m[33m;[39m
+   [90m 21 |[39m [36mimport[39m { [33mUserRole[39m } [36mfrom[39m [32m'../../entities/user.entity'[39m[33m;[39m[0m
+
+[1m[33m41 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
+
+webpack 5.97.1 compiled with [1m[31m72 errors[39m[22m in 9360 ms

@@ -1,0 +1,21 @@
+backend/
+├── src/
+│   ├── config/           # Configurações (DB, Redis, JWT, Google, Meta)
+│   ├── common/           # Decorators, Filters, Guards, Interceptors
+│   ├── entities/         # TypeORM Entities
+│   ├── modules/
+│   │   ├── auth/         # JWT + Google OAuth2
+│   │   ├── users/        # CRUD de usuários
+│   │   ├── connectors/   # Integrações GA4, Google Ads, Meta Ads
+│   │   ├── analytics/    # Funil, fontes de tráfego, geográfico
+│   │   ├── kpi/          # Definições e valores de KPIs
+│   │   ├── exports/      # CSV/PDF export
+│   │   └── etl/          # Pipeline de dados agendado
+│   ├── app.module.ts
+│   └── main.ts
+├── .env.example
+├── Dockerfile
+├── docker-compose.yml
+├── package.json
+├── tsconfig.json
+└── README.md

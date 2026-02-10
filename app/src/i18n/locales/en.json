@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "DashCortex",
+    "tagline": "Marketing General Report"
+  },
+  "navigation": {
+    "overview": "Overview",
+    "metaAds": "Meta Ads",
+    "googleAds": "Google Ads",
+    "analytics": "Analytics",
+    "mobile": "Mobile"
+  },
+  "filters": {
+    "dateRange": "Date Range",
+    "campaign": "Campaign",
+    "ad": "Ad",
+    "group": "Group",
+    "type": "Type",
+    "city": "City",
+    "region": "Region",
+    "apply": "Apply",
+    "clear": "Clear"
+  },
+  "kpis": {
+    "totalInvestment": "Total Investment",
+    "totalConversions": "Total Conversions",
+    "conversionRate": "Conversion Rate",
+    "totalRevenue": "Total Revenue",
+    "overallROI": "Overall ROI",
+    "totalImpressions": "Total Impressions",
+    "investment": "Investment",
+    "revenue": "Revenue",
+    "purchases": "Purchases",
+    "averageROAS": "Average ROAS",
+    "costPerPurchase": "Cost per Purchase (CPA)",
+    "conversions": "Conversions",
+    "costPerConversion": "Cost per Conversion",
+    "clicks": "Clicks",
+    "averageCPC": "Average CPC",
+    "totalAccesses": "Total Accesses",
+    "totalUsers": "Total Users",
+    "newUsers": "New Users",
+    "pageViews": "Page Views",
+    "engagementRate": "Engagement Rate",
+    "checkouts": "Checkouts",
+    "initiatedCheckouts": "Initiated Checkouts",
+    "costPerCheckout": "Cost per Checkout",
+    "addToCart": "Add to Cart",
+    "frequency": "Frequency",
+    "cpm": "CPM"
+  },
+  "charts": {
+    "trafficFunnel": "Traffic Funnel",
+    "bestAds": "Best Ads (Conversions)",
+    "conversionsByGender": "Conversions by Gender",
+    "accessSource": "Access Source",
+    "accessByRegion": "Access by Region",
+    "accessByURL": "Access by URL",
+    "operatingSystem": "Operating System",
+    "device": "Device",
+    "accessInPeriod": "Access in Period",
+    "accessInWeek": "Access in Week",
+    "investment": "Investment",
+    "conversions": "Conversions",
+    "costPerConversion": "Cost per Conversion",
+    "keywords": "Keywords",
+    "campaigns": "Campaigns",
+    "adSets": "Ad Sets",
+    "ads": "Ads"
+  },
+  "tables": {
+    "campaign": "Campaign",
+    "adSet": "Ad Set",
+    "ad": "Ad",
+    "investment": "Investment",
+    "costPerPurchase": "Cost per Purchase",
+    "purchases": "Purchases",
+    "region": "Region",
+    "city": "City",
+    "accesses": "Accesses",
+    "keyword": "Keyword",
+    "conversions": "Conversions",
+    "costPerConversion": "Cost per Conv.",
+    "conversionRate": "Conv. Rate",
+    "clicks": "Clicks",
+    "url": "URL"
+  },
+  "actions": {
+    "export": "Export",
+    "exportCSV": "Export CSV",
+    "exportPDF": "Export PDF",
+    "refresh": "Refresh",
+    "download": "Download"
+  },
+  "funnel": {
+    "clicks": "Clicks",
+    "pageViews": "Page Views",
+    "checkouts": "Checkouts",
+    "purchases": "Purchases",
+    "dropOffRate": "Drop-off Rate",
+    "currentRate": "Current Rate"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "all": "All",
+    "none": "None",
+    "more": "More",
+    "less": "Less",
+    "showing": "Showing",
+    "of": "of",
+    "results": "results",
+    "perPage": "per page"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female",
+    "unknown": "Unknown"
+  },
+  "currency": {
+    "symbol": "$",
+    "code": "USD"
+  },
+  "percent": "%"
+}

@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "DashCortex",
+    "tagline": "Relatório Geral de Marketing"
+  },
+  "navigation": {
+    "overview": "Visão Geral",
+    "metaAds": "Meta Ads",
+    "googleAds": "Google Ads",
+    "analytics": "Analytics",
+    "mobile": "Mobile"
+  },
+  "filters": {
+    "dateRange": "Período",
+    "campaign": "Campanha",
+    "ad": "Anúncio",
+    "group": "Grupo",
+    "type": "Tipo",
+    "city": "Cidade",
+    "region": "Região",
+    "apply": "Aplicar",
+    "clear": "Limpar"
+  },
+  "kpis": {
+    "totalInvestment": "Investimento Total",
+    "totalConversions": "Conversões Totais",
+    "conversionRate": "Taxa de Conversão",
+    "totalRevenue": "Faturamento Total",
+    "overallROI": "ROI Geral",
+    "totalImpressions": "Impressões Totais",
+    "investment": "Investimento",
+    "revenue": "Faturamento",
+    "purchases": "Compras",
+    "averageROAS": "ROAS Médio",
+    "costPerPurchase": "Custo por Compra (CPA)",
+    "conversions": "Conversões",
+    "costPerConversion": "Custo por Conversão",
+    "clicks": "Cliques",
+    "averageCPC": "CPC Médio",
+    "totalAccesses": "Acessos Totais",
+    "totalUsers": "Usuários Totais",
+    "newUsers": "Novos Usuários",
+    "pageViews": "Visualizações de Páginas",
+    "engagementRate": "Taxa de Engajamento",
+    "checkouts": "Checkouts",
+    "initiatedCheckouts": "Checkouts Iniciados",
+    "costPerCheckout": "Custo por Checkout",
+    "addToCart": "Add to Cart",
+    "frequency": "Frequência",
+    "cpm": "CPM"
+  },
+  "charts": {
+    "trafficFunnel": "Funil de Tráfego",
+    "bestAds": "Melhores Anúncios (Conversões)",
+    "conversionsByGender": "Conversões por Gênero",
+    "accessSource": "Origem dos Acessos",
+    "accessByRegion": "Acessos por Região",
+    "accessByURL": "Acessos por URL",
+    "operatingSystem": "Sistema Operacional",
+    "device": "Dispositivo",
+    "accessInPeriod": "Acessos no Período",
+    "accessInWeek": "Acessos na Semana",
+    "investment": "Investimento",
+    "conversions": "Conversões",
+    "costPerConversion": "Custo por Conversão",
+    "keywords": "Palavras-chave",
+    "campaigns": "Campanhas",
+    "adSets": "Conjuntos",
+    "ads": "Anúncios"
+  },
+  "tables": {
+    "campaign": "Campanha",
+    "adSet": "Conjunto",
+    "ad": "Anúncio",
+    "investment": "Investimento",
+    "costPerPurchase": "Custo por Compra",
+    "purchases": "Compras",
+    "region": "Região",
+    "city": "Cidade",
+    "accesses": "Acessos",
+    "keyword": "Palavra-chave",
+    "conversions": "Conversões",
+    "costPerConversion": "Custo por Conv.",
+    "conversionRate": "Taxa de Conv.",
+    "clicks": "Cliques",
+    "url": "URL"
+  },
+  "actions": {
+    "export": "Exportar",
+    "exportCSV": "Exportar CSV",
+    "exportPDF": "Exportar PDF",
+    "refresh": "Atualizar",
+    "download": "Download"
+  },
+  "funnel": {
+    "clicks": "Cliques",
+    "pageViews": "Page Views",
+    "checkouts": "Checkouts",
+    "purchases": "Compras",
+    "dropOffRate": "Taxa de Queda",
+    "currentRate": "Taxa Atual"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "search": "Buscar",
+    "all": "Todos",
+    "none": "Nenhum",
+    "more": "Mais",
+    "less": "Menos",
+    "showing": "Mostrando",
+    "of": "de",
+    "results": "resultados",
+    "perPage": "por página"
+  },
+  "gender": {
+    "male": "Masculino",
+    "female": "Feminino",
+    "unknown": "Indeterminado"
+  },
+  "currency": {
+    "symbol": "R$",
+    "code": "BRL"
+  },
+  "percent": "%"
+}

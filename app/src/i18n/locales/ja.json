@@ -1,0 +1,14 @@
+{
+  "app": { "name": "DashCortex", "tagline": "マーケティング総合レポート" },
+  "navigation": { "overview": "概要", "metaAds": "Meta 広告", "googleAds": "Google 広告", "analytics": "アナリティクス", "mobile": "モバイル" },
+  "filters": { "dateRange": "期間", "campaign": "キャンペーン", "ad": "広告", "group": "グループ", "type": "タイプ", "city": "都市", "region": "地域", "apply": "適用", "clear": "クリア" },
+  "kpis": { "totalInvestment": "総投資", "totalConversions": "総コンバージョン", "conversionRate": "コンバージョン率", "totalRevenue": "総収益", "overallROI": "総ROI", "totalImpressions": "総インプレッション", "investment": "投資", "revenue": "収益", "purchases": "購入", "averageROAS": "平均ROAS", "costPerPurchase": "購入単価(CPA)", "conversions": "コンバージョン", "costPerConversion": "コンバージョン単価", "clicks": "クリック", "averageCPC": "平均CPC", "totalAccesses": "総アクセス", "totalUsers": "総ユーザー", "newUsers": "新規ユーザー", "pageViews": "ページビュー", "engagementRate": "エンゲージメント率", "checkouts": "チェックアウト", "initiatedCheckouts": "開始チェックアウト", "costPerCheckout": "チェックアウト単価", "addToCart": "カートに追加", "frequency": "頻度", "cpm": "CPM" },
+  "charts": { "trafficFunnel": "トラフィックファネル", "bestAds": "ベスト広告(コンバージョン)", "conversionsByGender": "性別別コンバージョン", "accessSource": "アクセス元", "accessByRegion": "地域別アクセス", "accessByURL": "URL別アクセス", "operatingSystem": "OS", "device": "デバイス", "accessInPeriod": "期間内アクセス", "accessInWeek": "週間アクセス", "investment": "投資", "conversions": "コンバージョン", "costPerConversion": "コンバージョン単価", "keywords": "キーワード", "campaigns": "キャンペーン", "adSets": "広告セット", "ads": "広告" },
+  "tables": { "campaign": "キャンペーン", "adSet": "広告セット", "ad": "広告", "investment": "投資", "costPerPurchase": "購入単価", "purchases": "購入", "region": "地域", "city": "都市", "accesses": "アクセス", "keyword": "キーワード", "conversions": "コンバージョン", "costPerConversion": "コンバージョン単価", "conversionRate": "コンバージョン率", "clicks": "クリック", "url": "URL" },
+  "actions": { "export": "エクスポート", "exportCSV": "CSVエクスポート", "exportPDF": "PDFエクスポート", "refresh": "更新", "download": "ダウンロード" },
+  "funnel": { "clicks": "クリック", "pageViews": "ページビュー", "checkouts": "チェックアウト", "purchases": "購入", "dropOffRate": "離脱率", "currentRate": "現在の率" },
+  "common": { "loading": "読み込み中...", "error": "エラー", "success": "成功", "cancel": "キャンセル", "save": "保存", "edit": "編集", "delete": "削除", "search": "検索", "all": "すべて", "none": "なし", "more": "もっと", "less": "少なく", "showing": "表示", "of": "／", "results": "件", "perPage": "件／ページ" },
+  "gender": { "male": "男性", "female": "女性", "unknown": "不明" },
+  "currency": { "symbol": "¥", "code": "JPY" },
+  "percent": "%"
+}
