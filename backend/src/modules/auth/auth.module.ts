@@ -10,6 +10,7 @@ import { JwtStrategy } from './strategies/jwt.strategy';
 import { GoogleStrategy } from './strategies/google.strategy';
 import { User } from '../../entities/user.entity';
 import { UserConnector } from '../../entities/user-connector.entity';
+import { Tenant } from '../../entities/tenant.entity';
 
 @Module({
   imports: [
@@ -24,10 +25,10 @@ import { UserConnector } from '../../entities/user-connector.entity';
       }),
       inject: [ConfigService],
     }),
-    TypeOrmModule.forFeature([User, UserConnector]),
+    TypeOrmModule.forFeature([User, UserConnector, Tenant]),
   ],
   controllers: [AuthController],
   providers: [AuthService, JwtStrategy, GoogleStrategy],
   exports: [AuthService],
 })
-export class AuthModule {}
+export class AuthModule { }
